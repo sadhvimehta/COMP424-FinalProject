@@ -9,8 +9,8 @@ Following this, it applies the minimax algorithm with alpha-beta pruning. Throug
 The utility function involves finding the difference between the cost of the agent's move and the cost of its opponent's move. These individual costs are calculated by giving specific points to any 3, 4, and 5 pieces in a row THAT HAVE POTENTIAL TO BECOME 5 IN A ROW. This includes horizontal, vertical, and diagonal rows. The higher the number of pieces in  a row, the largest the number of assigned points.
 
 For example, given the agent is player white:
-W W W E E B would be assigned points.
-W W E W B E would NOT be assigned points.
+- W W W E E B would be assigned points.
+- W W E W B E would NOT be assigned points.
 
 To run:
 1. Clone repo.
